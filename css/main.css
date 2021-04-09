@@ -192,7 +192,7 @@ header {
 }
 
 .work p {
-  text-align: center;
+  text-align: justify;
   margin: 0;
 }
 
@@ -203,6 +203,10 @@ header {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+
+.about p {
+  text-align: justify;
 }
 
 
@@ -391,7 +395,7 @@ footer .social-icons p i {
   .work article {
       display: flex;
       justify-content: space-between;
-      text-align: center;
+      text-align: left;
   }
   
   .work article figure, .work article div {
@@ -407,7 +411,8 @@ footer .social-icons p i {
   }
   
   .work p {
-      font-size: 1em;
+      font-size: 0.8em;
+      text-align: left;
   }
   
   /*ABOUT*/
