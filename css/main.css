@@ -355,6 +355,11 @@ footer .social-icons p i {
   p {
     font-size: 1.4em;
   }
+
+  .about img {
+    width: 419px;
+    height: 534px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
