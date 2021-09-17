@@ -352,6 +352,14 @@ footer .social-icons p i {
     line-height: 0.3;
   }
 
+  .hotel-booking-app h5 {
+    line-height: 1;
+  }
+
+  .sticky-notes h5 {
+    line-height: 1;
+  }
+
   p {
     font-size: 1.4em;
   }
@@ -413,6 +421,10 @@ footer .social-icons p i {
   
   .work h5 {
       font-size: 1.25em;
+  }
+
+  .sticky-notes h5 {
+    font-size: 1.1em;
   }
   
   .work p {
