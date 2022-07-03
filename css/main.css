@@ -209,6 +209,18 @@ header {
   text-align: justify;
 }
 
+/*SERVICES*/
+
+.services {
+  background-color: #ffc8dd;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.fa-solid {
+  font-size: 2em;
+}
 
 /*FOOTER*/
 
@@ -444,7 +456,7 @@ footer .social-icons p i {
   .about img {
     width: 359px;
     height: 474px;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-top: 40px;
   }
   
@@ -571,4 +583,3 @@ footer .social-icons p i {
     page-break-after: avoid;
   }
 }
-
