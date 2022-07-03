@@ -95,7 +95,7 @@ body {
   font-size: 1em;
   font-family: "Fanwood Text", serif;
   text-align: center;
-  background-color: #dde2e5;
+  background-color: #dbe4ee; /*#dde2e5*/
 }
 
 a {
@@ -192,7 +192,7 @@ header {
 }
 
 .work p {
-  text-align: center;
+  text-align: justify;
   margin: 0;
 }
 
@@ -205,6 +205,22 @@ header {
   flex-flow: row wrap;
 }
 
+.about p {
+  text-align: justify;
+}
+
+/*SERVICES*/
+
+.services {
+  background-color: #ffc8dd;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.fa-solid {
+  font-size: 2em;
+}
 
 /*FOOTER*/
 
@@ -348,8 +364,21 @@ footer .social-icons p i {
     line-height: 0.3;
   }
 
+  .hotel-booking-app h5 {
+    line-height: 1;
+  }
+
+  .sticky-notes h5 {
+    line-height: 1;
+  }
+
   p {
     font-size: 1.4em;
+  }
+
+  .about img {
+    width: 419px;
+    height: 534px;
   }
 }
 
@@ -391,7 +420,7 @@ footer .social-icons p i {
   .work article {
       display: flex;
       justify-content: space-between;
-      text-align: center;
+      text-align: left;
   }
   
   .work article figure, .work article div {
@@ -405,9 +434,14 @@ footer .social-icons p i {
   .work h5 {
       font-size: 1.25em;
   }
+
+  .sticky-notes h5 {
+    font-size: 1.1em;
+  }
   
   .work p {
-      font-size: 1em;
+      font-size: 0.8em;
+      text-align: left;
   }
   
   /*ABOUT*/
@@ -422,7 +456,7 @@ footer .social-icons p i {
   .about img {
     width: 359px;
     height: 474px;
-    padding-left: 200px;
+    padding-left: 150px;
     padding-top: 40px;
   }
   
@@ -438,7 +472,7 @@ footer .social-icons p i {
   }
   
   .about p {
-    font-size: 1.25em;
+    font-size: 1.15em;
   }
   
   /*FOOTER*/
